@@ -7,19 +7,39 @@ This shortcut saves a recipe from Safari and creates a new Note, in the Apple No
 Shortcuts allows you to run JavaScript on a web page, and the code in `index.js` is a good starting point that will scrape a lot of recipe websites. It targets the [Recipe Schema Markup](https://developers.google.com/search/docs/data-types/recipe). Since this is an opt-in SEO feature for Google, unfortunately, this script won't work all the time.
 
 ## Getting Started
-1. I will add the shortcut link for you to download this directly.
+1. Link to my [iCloud Shortcut](https://www.icloud.com/shortcuts/c28f181501d94246a99d620a04ce07db)
 
 ## Getting Started the Other Way
 1. Open Shortcuts and click `+` to create a new shortcut.
+
 2. Click `...`, Select 'Show in Share Sheet' to be ON. Share Sheet Types should be `Safari web pages`
+
+<img src="./assets/recipe-shortcut-1.png" width="800"/>
+<img src="./assets/recipe-shortcut-2.png" width="800"/>
+<img src="./assets/recipe-shortcut-3.png" width="800"/>
+
 3. Search for `Run JavaScript on Web Page` in the Actions. Add it to the shortcut panel. Note: It should automatically recieve an input from `Shortcut Input`.
 4. Delete the provided code and add the code from `index.js`
+
+<img src="./assets/recipe-shortcut-4.png" width="800"/>
+
 5. Search for `If` in the search panel.
 6. Add `does not have any value` to the If condition. Then you can add a Notification from the action panel if you would like. Drag the notification under the If condition.
+
+<img src="./assets/recipe-shortcut-5.png" width="800"/>
+
 7. Search for `Text` in the search panel, and add it under the `Otherwise` block.
 8. Inside the text field for `Text`, you can start adding data from the `JavaScript Result` as `Dictionary` with the value for keys (see below). 
+
+<img src="./assets/recipe-shortcut-6.png" width="800"/>
+<img src="./assets/recipe-shortcut-7.png" width="800"/>
+
 9. Search for `Create Note` in the Search panel, and add it under the `Text` block. (I have `Show Compose Sheet` off, but this is up to you)
 10. If you would like the newly created note to be shown, add `Show Note` under the previous block.
+
+Result:
+
+<img src="./assets/recipe-shortcut-8.png" width="800"/>
 
 ## Dictionary / JSON Keys and values:
 
