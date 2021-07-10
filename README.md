@@ -7,7 +7,7 @@ This shortcut saves a recipe from Safari and creates a new Note, in the Apple No
 Shortcuts allows you to run JavaScript on a web page, and the code in `index.js` is a good starting point that will scrape a lot of recipe websites. It targets the [Recipe Schema Markup](https://developers.google.com/search/docs/data-types/recipe) specification that Google outlines. Since this is an opt-in SEO feature for Google, unfortunately, this script won't work all the time.
 
 ## Getting Started
-1. Link to my [iCloud Shortcut](https://www.icloud.com/shortcuts/c28f181501d94246a99d620a04ce07db).
+1. Link to my [iCloud Shortcut](https://www.icloud.com/shortcuts/63686b6fa2964b8792c4fc88f0c84449).
 
 I'm not very familiar with Shortcuts, but I believe, if you have not used the Shortcuts App before, you may need to use a shortcut, before you can download someone else's.
 
