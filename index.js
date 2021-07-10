@@ -5,6 +5,7 @@ function parseElements(elements, result = []) {
     if (data.innerText) {
       data = JSON.parse(data.innerText);
     }
+
     if (Array.isArray(data)) {
       for (let node of data) {
         if (node['@type'] == 'Recipe') {
@@ -24,9 +25,14 @@ function parseElements(elements, result = []) {
       }
     }
     if (data['@type'] == 'Recipe') {
-      data['myInstructions'] = data.recipeInstructions.map((r, i) => {
+      data.recipeInstructions =
+        typeof data.recipeInstructions == 'string'
+          ? data.recipeInstructions.match(/[^\.!\?]+[\.!\?]+/g)
+          : data.recipeInstructions;
+      data['myInstructions'] = data.recipeInstructions?.map((r, i) => {
         const step = String(i + 1);
-        const newInstruction = step + '. ' + r.text + '\n';
+        const text = typeof r == 'string' ? r : r.text;
+        const newInstruction = step + '. ' + text + '\n';
         return newInstruction;
       });
       for (let i = 0; i < data['recipeIngredient'].length; i++) {
