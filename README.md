@@ -4,7 +4,7 @@ Everyone knows how annoying recipe websites can be. This is a small project that
 
 This shortcut saves a recipe from Safari and creates a new Note, in the Apple Notes app.
 
-Shortcuts allows you to run JavaScript on a web page, and the code in `index.js` is a good starting point that will scrape a lot of recipe websites. It targets the [Recipe Schema Markup](https://developers.google.com/search/docs/data-types/recipe). Since this is an opt-in SEO feature for Google, unfortunately, this script won't work all the time.
+Shortcuts allows you to run JavaScript on a web page, and the code in `index.js` is a good starting point that will scrape a lot of recipe websites. It targets the [Recipe Schema Markup](https://developers.google.com/search/docs/data-types/recipe) specification that Google outlines. Since this is an opt-in SEO feature for Google, unfortunately, this script won't work all the time.
 
 ## Getting Started
 1. Link to my [iCloud Shortcut](https://www.icloud.com/shortcuts/c28f181501d94246a99d620a04ce07db)
@@ -43,7 +43,7 @@ Result:
 
 ## Dictionary / JSON Keys and values:
 
-This is a sample object that is returned from the `JavaScript Result`. Add the keys to the `Text` panel that you would like to include in the Note. 
+This is a sample object that is returned from the `JavaScript Result`. Depending on the site, this object appear different. Add the keys to the `Text` panel that you would like to include in the Note. 
 
 The JavaScript function manipulates the original object for easier access and formatting, for instance: `recipeIngredient` and `myInstructions` are altered.
 
@@ -227,4 +227,19 @@ The JavaScript function manipulates the original object for easier access and fo
 ```
 
 ### To Do
+- [ ] Improve the functionality
 - [ ] Change the control flow for the `If` action to have better style.
+
+### Sites that should work:
+
+- Serious Eats
+- All Recipes
+- Bon Appetite
+- Yummly *
+- Chow Hound
+- Simply Recipes
+
+### Sites that do not work:
+These sites may not use the Recipe Schema Markup.
+- Epicurious
+- The Food Network
