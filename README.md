@@ -6,8 +6,14 @@ This shortcut saves a recipe from Safari and creates a new Note, in the Apple No
 
 Shortcuts allows you to run JavaScript on a web page, and the code in `index.js` is a good starting point that will scrape a lot of recipe websites. It targets the [Recipe Schema Markup](https://developers.google.com/search/docs/data-types/recipe) specification that Google outlines. Since this is an opt-in SEO feature for Google, unfortunately, this script won't work all the time.
 
+# Demo
+
+Video on my Twitter: [@briantran_codes](https://twitter.com/briantran_codes/status/1413359320054435844?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1413359320054435844%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=https%3A%2F%2Fpublish.twitter.com%2F%3Fquery%3Dhttps3A2F2Ftwitter.com2Fbriantran_codes2Fstatus2F1413359320054435844widget%3DTweet)
+
 ## Getting Started
 1. Link to my [iCloud Shortcut](https://www.icloud.com/shortcuts/63686b6fa2964b8792c4fc88f0c84449).
+
+**Update 7/14/2021:** Some people have told me that the link it does not work :( 
 
 I'm not very familiar with Shortcuts, but I believe, if you have not used the Shortcuts App before, you may need to use a shortcut, before you can download someone else's.
 
@@ -21,7 +27,7 @@ I'm not very familiar with Shortcuts, but I believe, if you have not used the Sh
 <img src="./assets/recipe-shortcut-3.png" width="800"/>
 
 3. Search for `Run JavaScript on Web Page` in the Actions. Add it to the shortcut panel. Note: It should automatically recieve an input from `Shortcut Input`.
-4. Delete the provided code and add the code from `index.js`
+4. Delete the provided code and add the code from `index.js`. Link to [index.js](index.js)
 
 <img src="./assets/recipe-shortcut-4.png" width="800"/>
 
