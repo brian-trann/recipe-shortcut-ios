@@ -11,7 +11,8 @@ Shortcuts allows you to run JavaScript on a web page, and the code in `index.js`
 Video on my Twitter: [@briantran_codes](https://twitter.com/briantran_codes/status/1413359320054435844?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1413359320054435844%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=https%3A%2F%2Fpublish.twitter.com%2F%3Fquery%3Dhttps3A2F2Ftwitter.com2Fbriantran_codes2Fstatus2F1413359320054435844widget%3DTweet)
 
 ## Getting Started
-1. Link to my [iCloud Shortcut](https://www.icloud.com/shortcuts/63686b6fa2964b8792c4fc88f0c84449).
+1. Link to my [iCloud Shortcut](https://www.icloud.com/shortcuts/4505491bec214456a9718019c0f0eb85).
+
 
 **Update 7/14/2021:** Some people have told me that the link it does not work :( 
 
