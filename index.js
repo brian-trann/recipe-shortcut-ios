@@ -23,6 +23,9 @@ function parseElements(elements, result = []) {
       if (data.image.url) {
         data['myImgUrl'] = data.image.url;
       }
+      if (typeof data.image === 'string'){
+        data['myImgUrl'] = data.image
+      }
     }
     if (data['@type'] == 'Recipe') {
       data.recipeInstructions =
